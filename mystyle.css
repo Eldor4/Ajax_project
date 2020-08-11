@@ -1,0 +1,95 @@
+body {
+  background-image: url("imgs/0_DoxEFYyX7DD5S5bq.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background-color: lightgray;
+  text-align: center;
+  padding: 5px;
+}
+/* div title */
+#title_1 {
+  opacity: 0.7;
+  display: block;
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  width: 30%;
+  text-align: center;
+  color: #000;
+}
+/* p title */
+#ktitle_1 {
+  display: block;
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+ul {
+  position: absolute;
+  display: flex;
+  list-style-type: none;
+  top: 40%;
+}
+li > a {
+  border: solid 1px white;
+  color: rgb(133, 124, 124);
+  background-color: black;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 4px;
+}
+li > a:hover {
+  color: white;
+  background-color: black;
+}
+.link-outlet {
+  position: absolute;
+  display: flex;
+  justify-content: center !important;
+  list-style-type: none;
+  top: 46%;
+  margin-right: auto;
+}
+
+.btn.btn-primary.btn-lg.clearls {
+  background-color: green;
+  border-color: greenyellow;
+}
+
+.custom-control-input {
+  background-color: green;
+  border-color: greenyellow;
+}
+
+.btn.btn-primary.btn-lg.clearls.active {
+  background-color: grey;
+  border-color: black;
+}
+#toAb {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    /* width: 70%; */
+    justify-content:space-evenly ;
+    /* width: 32.5%; */
+    position: relative;
+    
+}
+
+/* .form-inline{
+    
+position: fixed;
+z-index: 99;
+
+    
+} */
